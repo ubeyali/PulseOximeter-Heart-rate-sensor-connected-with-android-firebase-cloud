@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:visibility="invisible"
+
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Baglan"
+        android:id="@+id/buttonStart"
+        android:layout_below="@+id/editText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="onClickStart"/>
+
+
+
+    <TextView
+        android:gravity="bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:layout_below="@+id/buttonSend"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/editText"
+        android:layout_alignEnd="@+id/editText"
+        android:layout_alignParentBottom="true"
+        android:scrollbars = "vertical"
+        android:singleLine="false" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="baglantiyi kes"
+        android:id="@+id/buttonStop"
+        android:layout_below="@+id/editText"
+        android:layout_toRightOf="@+id/buttonSend"
+        android:layout_toEndOf="@+id/buttonStart"
+        android:onClick="onClickStop"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send"
+        android:visibility="invisible"
+        android:id="@+id/buttonSend"
+        android:onClick="onClickSend"
+        android:layout_below="@+id/editText"
+        android:layout_toRightOf="@+id/buttonStart"
+        android:layout_toEndOf="@+id/buttonStart" />
+
+</RelativeLayout>

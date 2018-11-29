@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "510996743978",
+    "firebase_url": "https://nabzbluetooth.firebaseio.com",
+    "project_id": "nabzbluetooth",
+    "storage_bucket": "nabzbluetooth.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:510996743978:android:9f5de642569a16d9",
+        "android_client_info": {
+          "package_name": "tr.com.bluetooth_test2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "510996743978-skiln77ga3dpt05pr34fqou0cdrf5ckp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAldIsUK_O8hvxGK6VLsNfUd36HnkZhSNY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
